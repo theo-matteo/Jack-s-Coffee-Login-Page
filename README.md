@@ -1,4 +1,4 @@
-# Jack-s-Coffee-Login-Page
+# Jack's Coffee Login Page
 Este projeto é uma login page inspirada em um Layout encontrado no figma. 
 O objetivo do projeto foi para praticar habilidades em HTML e CSS.
 
