@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  width: 37.5rem;
+  padding-top: 1px;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+}
+
+.top {
+  margin-inline: auto;
+  margin-top: 4rem;
+  border-radius: 4rem;
+  background-color: #262617;
+  width: 11.9rem;
+  height: 11.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(267.78deg, #404026 0%, #262617 100%);
+  box-shadow: 0px 8px 16px -8px rgba(47, 47, 27, 0.3), inset 4px 4px 8px rgba(255, 255, 255, 0.15), inset -4px -4px 8px #242415;
+  border-radius: 4rem;
+}
+
+h1 {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #202013;
+}
+
+form {
+  margin-top: 3.5rem;
+  width: 31.2rem;
+  margin-inline: auto;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  border: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #202013;
+  margin-bottom: 2px;
+}
+
+.input-wrapper input {
+  border: 1px solid #C5C5AF;
+  border-radius: .8rem;
+  padding: .9rem;
+}
+
+a {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #202013;
+  text-decoration: none;
+}
+
+form a {
+  align-self: flex-end;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  line-height: 3.4rem;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  border-radius: .8rem;
+}
+
+fieldset button {
+  background: linear-gradient(267.78deg, #404026 0%, #262617 100%);
+  box-shadow: 0px 16px 32px -8px rgba(47, 47, 28, 0.3), inset 8px 8px 16px rgba(255, 255, 255, 0.15), inset -8px -8px 16px #242415;
+  padding: 1.3rem 12.1rem 1.4rem 12.1rem;
+  color: #EDEA98;
+  width: 100%;
+}
+
+.register {
+  margin-top: 4.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.register button {
+  background: #DBDDC6;
+  padding: 1.3rem 10.6rem 1.4rem 10.7rem;
+}
